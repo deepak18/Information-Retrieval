@@ -1,0 +1,33 @@
+Focused Crawling looks for the keyword "solar" in either the url text or anchor text.
+BFS takes the seed and crawls over the whole page and then does the same task for each page it gets
+(crawling first those which comes first on the page)
+
+DFS takes the seed and each time crawls the first link it gets on the page and perform the same task this time on the new link,
+till reaches the maximum depth.
+(going deeper with the first link, till max depth)
+
+
+Total no of crawls in case of BFS is around 80,000 ; whereas
+Total no of crawls in case of DFS is around 3,60,000.
+
+BFS: Top 5 URLs
+https://en.wikipedia.org/wiki/Sustainable_energy
+https://en.wikipedia.org/wiki/Passive_solar_building_design
+https://en.wikipedia.org/wiki/Solar_energy
+https://en.wikipedia.org/wiki/Sustainable_energy
+https://en.wikipedia.org/wiki/Solar_heating
+
+DFS: Top 5 URLs
+https://en.wikipedia.org/wiki/Sustainable_energy
+https://en.wikipedia.org/wiki/Passive_solar_building_design
+https://en.wikipedia.org/wiki/Active_solar
+https://en.wikipedia.org/wiki/Solar_tracker
+https://en.wikipedia.org/wiki/Solar_panels
+
+Starting with the same root, the first link on both BFS and DFS is same.
+
+The third link in the DFS that signifies the first element at depth=3, 
+which comes as link no. 512 in BFS,
+that means total links in BFS, at level 1 =1
+							   at level 2 =510
+							   

@@ -1,0 +1,13 @@
+Seed 1: https://en.wikipedia.org/wiki/Sustainable_energy
+Seed 2:	https://en.wikipedia.org/wiki/Solar_power
+
+Merging with minimal loss of quality->
+
+Pages at the same depth in their individual web graph:
+	Merging single urls form each graphs which is at the earliest on the page.
+	
+Pages at shallow depth from both web graphs will be merged first.
+
+So, on the same depth, one-one URL from each which comes first on the webpage.
+and, on different depths, including the one which is at shallower.
+
