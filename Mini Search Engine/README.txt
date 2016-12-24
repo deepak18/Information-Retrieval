@@ -1,6 +1,6 @@
 The easiest way to run this project is to use eclipse
 Choose 'File', 'Import' and 'Existing Projects into Workspace'
-And select the 'IR-Project' folder under 'Code' folder
+And select the 'Code' folder
 Then run in the following sequence
 
 searchEngine package
