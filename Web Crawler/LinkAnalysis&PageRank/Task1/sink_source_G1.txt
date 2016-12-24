@@ -1,0 +1,6 @@
+SinkNodes: 
+Clinton_Climate_Initiative
+
+SourceNodes: 
+NYPD
+
