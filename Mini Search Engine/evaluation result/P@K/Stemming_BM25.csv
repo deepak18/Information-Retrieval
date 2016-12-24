@@ -1,0 +1,13 @@
+QueryID,DocID,Document Rank,Precision,System_Name
+19,2433,5,0.8,Stemming_BM25
+19,2570,20,0.35,Stemming_BM25
+23,241,5,0.2,Stemming_BM25
+23,2371,20,0.15,Stemming_BM25
+24,1435,5,0.4,Stemming_BM25
+24,3120,20,0.15,Stemming_BM25
+25,1518,5,0.8,Stemming_BM25
+25,1032,20,0.5,Stemming_BM25
+12,1591,5,0.4,Stemming_BM25
+12,2064,20,0.1,Stemming_BM25
+13,1947,5,0.8,Stemming_BM25
+13,2530,20,0.25,Stemming_BM25
